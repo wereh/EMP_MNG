@@ -17,6 +17,13 @@ export class RolesComponent {
   currentDate: Date = new Date();
   inputType: string = 'radio';
   selectedState: string = '';
+
+  showWelcomeAlert(){
+    alert('Welcome to Angular 18 tutorial!');
+  }
+  showMessage(message: string){
+    alert(message);
+  }
   
 
 }
